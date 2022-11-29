@@ -79,7 +79,7 @@ def move(room):
         if room.roomNumber == 2:
             ans = input()
             if ans == "10":
-                print("Prince the gnome squeaks, \nCorrect!\nand hands you and old pair of boots.")
+                print("Prince the gnome squeaks, \nCorrect!\nand hands you an old pair of boots.")
             else:
                 print("Prince the gnome screams:\n INCORRECT! \n and bashes your skull in with his hammer. Game Over.")
                 quit()
@@ -87,7 +87,7 @@ def move(room):
             ans = input()
             comb = ("Comb, comb")
             if ans in comb:
-                print("The treant growls: \n Correct, you man proceed, and hands you the scroll of basic mathematics")
+                print("The treant growls: \n Correct, you may proceed, and hands you the scroll of basic mathematics")
             else:
                 print("The treant opens up a hole beneath you. Game Over.")
                 quit()
